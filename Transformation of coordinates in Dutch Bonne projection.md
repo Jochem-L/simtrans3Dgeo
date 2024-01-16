@@ -27,7 +27,7 @@ cct -d 9 -z 0 +proj=pipeline
 +step +proj=cart +ellps=GRS80 +inv
 ```
 
-## 3. Approximate transformation from Bonne coordinates to ETRS89 / WGS84 as PROJ4 string:
+## 3. Approximate transformation from Bonne coordinates to ETRS89 / WGS84 as PROJ4 string
 PROJ4-style string for an an approximate 7-parameter (Helmert) transformation from Dutch Bonne projection to ETRS89 / WGS84 for defining a custom CRS in QGIS: 
 ```
 +proj=bonne +lat_1=51.5 +lon_0=0 +a=6376950.4 +rf=309.65 +pm=4.883882778 +towgs84=932.9862,86.2986,-197.9356,-2.276813,-1.478043,-4.673555,50.09450 +type=crs
