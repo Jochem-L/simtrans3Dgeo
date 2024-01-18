@@ -2,7 +2,7 @@
 Jochem Lesparre, Nederlandse Samenwerking Geodetische Infrastructuur ([NSGI](https://www.nsgi.nl/))
 
 ## Introduction
-The historical map series of the Netherlands the *Topografische en Militaire Kaart (TMK)* and the *Chromotopografische Kaart des Rijks* (*Bonnebladen*) use geographic coordinates from Krayenhoff’s triangulation and coordinates in the Bonne projection. The older *Choro-topographische kaart der Noordelijke Provinciën van het Koningrijk der Nederlanden* by Krayenhoff is based on the same triangulation, but used geographic coordinates with a different geoid and a different projection. While a locally optimised transformation (e.g. rubbersheeting) will give the best results for georeferencing the Dutch historical map series based on the Bonne projection, a nationwide coordinate transformation can be useful. There are 2 options for this transformation:
+The historical map series of the Netherlands the *Topografische en Militaire Kaart (TMK)* and the *Chromotopografische Kaart des Rijks* (*Bonnebladen*) use geographic coordinates from Krayenhoff’s triangulation and coordinates in the Bonne projection. The older *Choro-topographische kaart der Noordelijke Provinciën van het Koningrijk der Nederlanden* by Krayenhoff is based on the same triangulation, but used a different ellipsoid and a different projection. While a locally optimised transformation (e.g. rubbersheeting) will give the best results for georeferencing the Dutch historical map series based on the Bonne projection, a nationwide coordinate transformation can be useful. There are 2 options for this transformation:
 
 1. Original polynomial transformation from Bonne coordinas to RD coordinates
 2. Approximate similarity transformation from Bonne coordinates to ETRS89
