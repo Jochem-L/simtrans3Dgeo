@@ -7,7 +7,7 @@ The historical map series of the Netherlands the *Topografische en Militaire Kaa
 1. Original polynomial transformation from Bonne coordinas to RD coordinates
 2. Approximate similarity transformation from Bonne coordinates to ETRS89
 
-The original transformation is a third degree polynomial transformation published in 1925.<sup>[[Van Riel 1925](https://dehollandsecirkel.courant.nu/periodicals/TKL/1925)]</sup> It is based on a subset of 21 points from the 64 first order triangulation points that Krayenhoff's triangulation<sup>[[Krayenhoff 1850]()]</sup> and the Rijksdriehoeksmeting (RD)<sup>[[Heuvelink 1920]()]</sup> had incommon.
+The original transformation is a third degree polynomial transformation published in 1925.<sup>[[Van Riel 1925](https://dehollandsecirkel.courant.nu/periodicals/TKL/1925)]</sup> It is based on a subset of 21 points from the 64 first-order triangulation points that Krayenhoff's triangulation<sup>[[Krayenhoff 1850]()]</sup> and the Rijksdriehoeksmeting (RD)<sup>[[Heuvelink 1920]()]</sup> had incommon.
 
 The approximate transformation introduced in this document, is based on a least-squares estimation using 102 common points with coordinates in the Bonne projection as well as RDNAP coordinates. The points are a subset, evenly distributed over the Netherlands, obtained from the original transformation (*Tafel van Van Riel*). To reduce the size of the rotation angles of the similarity transformation, the longitude of the prime meridian is set to the value 4°&nbsp;53′&nbsp;1.978″ E of Greenwich from RD.<sup>[[Haasbroek 1972](https://ncgeo.nl/downloads/16Haasbroek.pdf)]</sup> For original geographic Krayenhoff coordinates, the prime meridian of Amsterdam should be set to zero. 
 
