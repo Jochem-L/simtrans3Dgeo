@@ -28,7 +28,7 @@ cct -d 4 -z 0 +proj=pipeline
 For transformation to ETRS89 or WGS 84, additional steps of the transformation RDNAPTRANS™ should be added.<sup>[[NSGI](https://www.nsgi.nl/)]</sup>
 
 ### 2. Approximate similarity transformation from Dutch Bonne coordinates to ETRS89 
-#### 2.1 PROJ pipeline
+#### PROJ pipeline
 PROJ pipeline for an approximate 7-parameter similarity (Helmert) transformation from coordinates in Dutch Bonne projection to ETRS89, e.g. for use in cct of PROJ:
 
 ```
@@ -41,7 +41,7 @@ cct -d 9 -z 0 +proj=pipeline
 
 For transformation to RD, additional steps of the transformation RDNAPTRANS™ should be added.<sup>[[NSGI](https://www.nsgi.nl/)]</sup> For transformation to WGS 84, no additional steps are needed if a null transformation is used, as recommended for most applications.<sup>[[Geonovum](https://docs.geostandaarden.nl/crs/crs/)]</sup> 
 
-#### 2.2 PROJ4-style string
+#### PROJ4-style string
 PROJ4-style string for an an approximate 7-parameter similarity (Helmert) transformation from coordinates in Dutch Bonne projection to ETRS89, e.g. for defining a custom CRS in QGIS: 
 ```
 +proj=bonne +lat_1=51.5 +lon_0=0 +a=6376950.4 +rf=309.65 +pm=4.883882778 +towgs84=932.9862,86.2986,-197.9356,-2.276813,-1.478043,-4.673555,50.09450 +type=crs
